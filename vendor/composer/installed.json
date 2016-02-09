@@ -1,0 +1,49 @@
+[
+    {
+        "name": "avryhof/database",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/avryhof/database.git",
+            "reference": "a839b3b59c9251b7884c5ce3983989abd7e43ece"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/avryhof/database/zipball/a839b3b59c9251b7884c5ce3983989abd7e43ece",
+            "reference": "a839b3b59c9251b7884c5ce3983989abd7e43ece",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "time": "2015-04-17 12:24:16",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "database.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            ""
+        ],
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Amos Vryhof",
+                "email": "amos@vryhofresearch.com"
+            }
+        ],
+        "description": "Database Abstraction Layer",
+        "homepage": "https://github.com/avryhof/database",
+        "keywords": [
+            "database",
+            "mysql",
+            "sqlite"
+        ]
+    }
+]

@@ -1,0 +1,3 @@
+[submodule "vendor/avryhof/database"]
+	path = vendor/avryhof/database
+	url = avryhof@github.com:database

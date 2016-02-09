@@ -1,0 +1,5 @@
+AuthUserFile /home/multiagd/public_html/Secure/it/.htpasswd
+AuthType Basic
+AuthName "Admin"
+
+require valid-user

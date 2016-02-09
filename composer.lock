@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4d3ee09aeb0f153803763cfc3e404cae",
+    "content-hash": "8dbd5bf1614452276250193b0c07531f",
+    "packages": [
+        {
+            "name": "avryhof/database",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avryhof/database.git",
+                "reference": "a839b3b59c9251b7884c5ce3983989abd7e43ece"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avryhof/database/zipball/a839b3b59c9251b7884c5ce3983989abd7e43ece",
+                "reference": "a839b3b59c9251b7884c5ce3983989abd7e43ece",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "database.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Amos Vryhof",
+                    "email": "amos@vryhofresearch.com"
+                }
+            ],
+            "description": "Database Abstraction Layer",
+            "homepage": "https://github.com/avryhof/database",
+            "keywords": [
+                "database",
+                "mysql",
+                "sqlite"
+            ],
+            "time": "2015-04-17 12:24:16"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "avryhof/database": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

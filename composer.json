@@ -1,0 +1,5 @@
+{
+    "require": {
+		  "avryhof/database": "dev-master"
+    }
+}

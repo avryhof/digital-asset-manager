@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS `photos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` text NOT NULL,
+  `file` text NOT NULL,
+  `path` text NOT NULL,
+  `time` datetime DEFAULT NULL,
+  `type` varchar(16) DEFAULT NULL,
+  `mimetype` varchar(64) NOT NULL,
+  `copyright` text,
+  `photographer` text,
+  `width` int(8) DEFAULT NULL,
+  `height` int(8) DEFAULT NULL,
+  `xresolution` int(8) DEFAULT NULL,
+  `yresolution` int(8) DEFAULT NULL,
+  `created` datetime DEFAULT NULL,
+  `updated` datetime DEFAULT NULL,
+  `tags` text,
+  `description` text,
+  `fullpath` text NOT NULL,
+  `categories` text,
+  PRIMARY KEY (`id`),
+  FULLTEXT KEY `name` (`name`,`file`,`description`,`tags`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
